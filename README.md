@@ -1,5 +1,12 @@
 # Sales-ETL-Project
 
-Through a sales DataSet, the process of extracting, transforming and loading the data was carried out. 
+This project consist in a general ETL process to a dataset using different python libraries such as Pandas, Numpy and Request. 
 
-In the extraction, two sources of information were used, a CSV type file and consuming the API, then the Data was normalized, finally it was uploaded in an Excel type file to a server.
+## Extraction: 
+In the extraction module I used the request library to consume an external API, to verify the connection and to extract the data. I also used pandas to extract the data from a csv file and to convert the data into dataframes.
+
+## Transform:
+Once the data is extracted and converted, I used pandas and numpy for data cleaning puporses. 
+
+## Load:
+Finally the extracted and cleaned data is dynamically uploaded as a csv file to a data warehouse.
